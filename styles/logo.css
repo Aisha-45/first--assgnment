@@ -34,6 +34,10 @@ nav h1{
     border-radius: 10px;
     height: 50px;
 }
+.btn:hover{
+    cursor: pointer;
+    background-color:#4F7942;
+}
 .title{
     text-align: center;
     font-size: 35px;
@@ -110,6 +114,7 @@ nav h1{
     background-color: white;
     padding: 30px;
     border-radius: 10px;
+    box-shadow: 2px 1px 8px #bcbcbe  ;
 }
 .star{
     color: #FFBF00;
@@ -165,6 +170,7 @@ nav h1{
 }
 label{
     font-weight: bold;
+    margin-bottom: 10px;
 }
 .form input[type="text"], form input[type="email"],form textarea{
     width: 500px;
@@ -180,4 +186,26 @@ label{
 }
 .form button{
     width: 540px;
+}
+.footer{
+    background-color: white;
+    text-align: center;
+    padding: 50px 480px;
+}
+.logo{
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.about{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.about a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: #4f4f50;
+}
+.footer p{
+    color:#4f4f50;
 }
