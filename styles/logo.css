@@ -1,6 +1,9 @@
 *{
     margin: 0;
 }
+body{
+    background-color: #E9FFDB;
+}
 .raleway-font {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -87,4 +90,41 @@ nav h1{
 }
 .Activity p{
     font-size: 30px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.review{
+    margin: 40px auto;
+    padding: 20px 120px;
+}
+.review h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 90px;
+}
+.card{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+.star{
+    color: #FFBF00;
+    margin-bottom: 90px;
+}
+.card h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.reviewer{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    gap: 10px;
+}
+.date{
+    font-size: 13px;
+    color: #b8bbb6;
 }
