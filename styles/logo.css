@@ -130,6 +130,9 @@ nav h1{
     align-items: center;
     gap: 10px;
 }
+.reviewer img{
+    border-radius: 100%;
+}
 .date{
     font-size: 13px;
     color: #b8bbb6;
@@ -187,6 +190,9 @@ label{
 .form button{
     width: 540px;
 }
+.name{
+    margin-bottom: 10px;
+}
 .footer{
     background-color: white;
     text-align: center;
@@ -200,6 +206,7 @@ label{
 .about{
     margin-left: 20px;
     margin-top: 30px;
+    display: flex;
 }
 .about a{
     margin-right: 30px;
@@ -208,4 +215,10 @@ label{
 }
 .footer p{
     color:#4f4f50;
+}
+.logo {
+    color: #4F7942;
+}
+.input{
+    margin-bottom: 20px;
 }
